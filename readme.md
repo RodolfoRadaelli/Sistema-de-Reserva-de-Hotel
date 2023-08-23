@@ -1,6 +1,6 @@
 #Sistema de reservas para cuartos de hoteles
 
-##description*
+##description
 El proyecto consiste en un sistema de reservas para cuartos de hoteles, donde el usuario puede:
 -Agregar reservas
 -Eliminar reservas
@@ -12,7 +12,7 @@ El proyecto consiste en un sistema de reservas para cuartos de hoteles, donde el
 	El programa fue hecho como practica para leer y escribir en ficheros.
 
 ##Ejecutar el proyecto
-***La clase principal del programa es ReservationSystem***.
+***La clase principal del programa es ReservationSystem.***
 
 ##Como usar el programa
 **Se abre un menu donde se tiene 5 posibilidades.
