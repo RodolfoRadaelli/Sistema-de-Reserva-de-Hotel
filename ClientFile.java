@@ -265,18 +265,14 @@ public class ClientFile
 	public static void sortElement()
 	{
 		int i, j;
-
-		System.out.printf("ehhh: %d%n", arrayClient.size());
-
+		
 		for ( i = 1; i < arrayClient.size()-1; i++ )
 		{
 			for( j = 0; j < arrayClient.size() - 1; j++)
 			{
-				System.out.printf("%d>%d%n", arrayClient.get(i).getId(), arrayClient.get(j).getId());
 				if ( arrayClient.get(j).getId() > 
 						arrayClient.get(j+1).getId() )
 				{
-					System.out.println("on");
 					Client aux = arrayClient.get(j);
 					arrayClient.set(j, arrayClient.get(j+1));
 					arrayClient.set(j+1, aux);
